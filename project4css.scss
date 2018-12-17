@@ -3,14 +3,20 @@ body {
     padding:0;
     font-family:Arial;
 }
+.wrap {
+    margin:0 auto;
+}
 
 .header {
     background-color:#353434;
     padding-top:5px;
     padding-bottom:10px;
     position:fixed;
-    width:100%;
-    
+    width:100%;   
+}
+
+.headerwrap {
+    margin:0 auto;
 }
 
 .logo {
@@ -76,7 +82,6 @@ nav {
 }
 
 .people {
-    margin:0;
     padding-top:30px;
     padding-bottom:20px;
     background-color:#c7d6d5;
@@ -165,7 +170,7 @@ nav {
 
    .meals {
        max-width:1500px;
-       margin-left:10%;
+       margin:0 auto 0;
    }
    
    .meal {
@@ -174,12 +179,12 @@ nav {
        border-bottom:none;
        padding-left:40px;
    }
-
+   
 
    .chefs {
        padding-top:20px;
        max-width:1500px;
-       margin-left:10%;
+       margin:0 auto 0;
 
    }
 
